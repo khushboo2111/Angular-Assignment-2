@@ -1,0 +1,28 @@
+
+a {
+
+  height: 68px;
+  background-color: brown;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a h1 {
+  color: white;
+  margin: 0;
+
+}
+
+a {
+  cursor: pointer;
+  color: #cf5f5f;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+

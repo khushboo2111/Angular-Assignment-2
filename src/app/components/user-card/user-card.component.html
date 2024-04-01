@@ -1,0 +1,5 @@
+<div class="user-card">
+  <img src=".\assets\user.png" id="user_photo" alt="Profile Image of {{smpdata.name}}">
+  <h3><a [routerLink]="['/user-details',smpdata.name]">{{smpdata.name | uppercase}}</a></h3>
+  <h4>{{smpdata.email}}</h4>
+</div>
